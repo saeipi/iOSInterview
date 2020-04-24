@@ -12,7 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        let args             = NSMutableDictionary()
+        args["className"]    = "KSSandboxController"
+        args["isCallMethod"] = true
+        args["method"]       = "keyedArchiver"
+
+        KSReflection.routeNavigationCtrl(self.navigationController, args: args)
     }
 
     override func didReceiveMemoryWarning() {

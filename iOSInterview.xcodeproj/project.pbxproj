@@ -18,6 +18,11 @@
 		E64BB8CA2452C293008D7DB5 /* KSDispatchGroupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64BB8C92452C293008D7DB5 /* KSDispatchGroupController.swift */; };
 		E64BB8CD2452C39C008D7DB5 /* KSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64BB8CC2452C39C008D7DB5 /* KSLog.swift */; };
 		E64BB8D62452C905008D7DB5 /* KSDispatchGroupcController.m in Sources */ = {isa = PBXBuildFile; fileRef = E64BB8D52452C905008D7DB5 /* KSDispatchGroupcController.m */; };
+		E655E00C2452F09F00FA359B /* KSKeychainController.m in Sources */ = {isa = PBXBuildFile; fileRef = E655E00B2452F09F00FA359B /* KSKeychainController.m */; };
+		E655E0112452F13000FA359B /* KSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = E655E0102452F13000FA359B /* KSKeychain.m */; };
+		E655E0182452FCC300FA359B /* KSSandboxController.m in Sources */ = {isa = PBXBuildFile; fileRef = E655E0172452FCC300FA359B /* KSSandboxController.m */; };
+		E655E01D2452FFE500FA359B /* KSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = E655E01C2452FFE500FA359B /* KSUser.m */; };
+		E655E0282453049A00FA359B /* KSReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = E655E0272453049A00FA359B /* KSReflection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +51,16 @@
 		E64BB8D32452C895008D7DB5 /* DispatchGroup.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DispatchGroup.md; sourceTree = "<group>"; };
 		E64BB8D42452C905008D7DB5 /* KSDispatchGroupcController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSDispatchGroupcController.h; sourceTree = "<group>"; };
 		E64BB8D52452C905008D7DB5 /* KSDispatchGroupcController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSDispatchGroupcController.m; sourceTree = "<group>"; };
+		E655E00A2452F09F00FA359B /* KSKeychainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSKeychainController.h; sourceTree = "<group>"; };
+		E655E00B2452F09F00FA359B /* KSKeychainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSKeychainController.m; sourceTree = "<group>"; };
+		E655E00F2452F13000FA359B /* KSKeychain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSKeychain.h; sourceTree = "<group>"; };
+		E655E0102452F13000FA359B /* KSKeychain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSKeychain.m; sourceTree = "<group>"; };
+		E655E0162452FCC300FA359B /* KSSandboxController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSSandboxController.h; sourceTree = "<group>"; };
+		E655E0172452FCC300FA359B /* KSSandboxController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSSandboxController.m; sourceTree = "<group>"; };
+		E655E01B2452FFE500FA359B /* KSUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSUser.h; sourceTree = "<group>"; };
+		E655E01C2452FFE500FA359B /* KSUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSUser.m; sourceTree = "<group>"; };
+		E655E0262453049A00FA359B /* KSReflection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSReflection.h; sourceTree = "<group>"; };
+		E655E0272453049A00FA359B /* KSReflection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSReflection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,6 +275,8 @@
 		E64BB8B12452B8F5008D7DB5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E655E0122452FCAE00FA359B /* Sandbox */,
+				E655E0062452F08400FA359B /* Keychain */,
 				E64BB8CF2452C70F008D7DB5 /* GCD */,
 				E64BB89B2452B5DC008D7DB5 /* ISA */,
 				E64BB8A02452B5F7008D7DB5 /* Runloop */,
@@ -270,6 +287,8 @@
 		E64BB8B92452BB44008D7DB5 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				E655E0192452FFC900FA359B /* Currency */,
+				E655E00D2452F10D00FA359B /* Tools */,
 				E64BB8BA2452BB58008D7DB5 /* Category */,
 				E64BB8BB2452BB5E008D7DB5 /* Extension */,
 			);
@@ -370,6 +389,116 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		E655E0062452F08400FA359B /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				E655E0072452F08400FA359B /* Controller */,
+				E655E0082452F08400FA359B /* Model */,
+				E655E0092452F08400FA359B /* View */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		E655E0072452F08400FA359B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E655E00A2452F09F00FA359B /* KSKeychainController.h */,
+				E655E00B2452F09F00FA359B /* KSKeychainController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E655E0082452F08400FA359B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E655E0092452F08400FA359B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E655E00D2452F10D00FA359B /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				E655E0252453048600FA359B /* Reflection */,
+				E655E00E2452F12200FA359B /* Keychain */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E655E00E2452F12200FA359B /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				E655E00F2452F13000FA359B /* KSKeychain.h */,
+				E655E0102452F13000FA359B /* KSKeychain.m */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		E655E0122452FCAE00FA359B /* Sandbox */ = {
+			isa = PBXGroup;
+			children = (
+				E655E0132452FCAE00FA359B /* Controller */,
+				E655E0142452FCAE00FA359B /* Model */,
+				E655E0152452FCAE00FA359B /* View */,
+			);
+			path = Sandbox;
+			sourceTree = "<group>";
+		};
+		E655E0132452FCAE00FA359B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E655E0162452FCC300FA359B /* KSSandboxController.h */,
+				E655E0172452FCC300FA359B /* KSSandboxController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E655E0142452FCAE00FA359B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E655E0152452FCAE00FA359B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E655E0192452FFC900FA359B /* Currency */ = {
+			isa = PBXGroup;
+			children = (
+				E655E01A2452FFD100FA359B /* Model */,
+			);
+			path = Currency;
+			sourceTree = "<group>";
+		};
+		E655E01A2452FFD100FA359B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E655E01B2452FFE500FA359B /* KSUser.h */,
+				E655E01C2452FFE500FA359B /* KSUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E655E0252453048600FA359B /* Reflection */ = {
+			isa = PBXGroup;
+			children = (
+				E655E0262453049A00FA359B /* KSReflection.h */,
+				E655E0272453049A00FA359B /* KSReflection.m */,
+			);
+			path = Reflection;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -445,9 +574,14 @@
 			files = (
 				E64BB8D62452C905008D7DB5 /* KSDispatchGroupcController.m in Sources */,
 				E60485722452B4F30070A045 /* ViewController.swift in Sources */,
+				E655E0182452FCC300FA359B /* KSSandboxController.m in Sources */,
 				E64BB8BE2452BB83008D7DB5 /* UIViewController+KSCategory.m in Sources */,
+				E655E0282453049A00FA359B /* KSReflection.m in Sources */,
+				E655E01D2452FFE500FA359B /* KSUser.m in Sources */,
 				E64BB8CA2452C293008D7DB5 /* KSDispatchGroupController.swift in Sources */,
 				E64BB8B82452BB2B008D7DB5 /* KSRunloopController.m in Sources */,
+				E655E0112452F13000FA359B /* KSKeychain.m in Sources */,
+				E655E00C2452F09F00FA359B /* KSKeychainController.m in Sources */,
 				E64BB8AB2452B70B008D7DB5 /* KSBaseViewController.swift in Sources */,
 				E60485702452B4F30070A045 /* AppDelegate.swift in Sources */,
 				E64BB8CD2452C39C008D7DB5 /* KSLog.swift in Sources */,
