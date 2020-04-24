@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E60485702452B4F30070A045 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604856F2452B4F30070A045 /* AppDelegate.swift */; };
+		E60485722452B4F30070A045 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60485712452B4F30070A045 /* ViewController.swift */; };
+		E60485752452B4F30070A045 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E60485732452B4F30070A045 /* Main.storyboard */; };
+		E60485772452B4F30070A045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E60485762452B4F30070A045 /* Assets.xcassets */; };
+		E604857A2452B4F30070A045 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E60485782452B4F30070A045 /* LaunchScreen.storyboard */; };
+		E64BB8AB2452B70B008D7DB5 /* KSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64BB8AA2452B70B008D7DB5 /* KSBaseViewController.swift */; };
+		E64BB8B82452BB2B008D7DB5 /* KSRunloopController.m in Sources */ = {isa = PBXBuildFile; fileRef = E64BB8B72452BB2B008D7DB5 /* KSRunloopController.m */; };
+		E64BB8BE2452BB83008D7DB5 /* UIViewController+KSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E64BB8BD2452BB83008D7DB5 /* UIViewController+KSCategory.m */; };
+		E64BB8CA2452C293008D7DB5 /* KSDispatchGroupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64BB8C92452C293008D7DB5 /* KSDispatchGroupController.swift */; };
+		E64BB8CD2452C39C008D7DB5 /* KSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64BB8CC2452C39C008D7DB5 /* KSLog.swift */; };
+		E64BB8D62452C905008D7DB5 /* KSDispatchGroupcController.m in Sources */ = {isa = PBXBuildFile; fileRef = E64BB8D52452C905008D7DB5 /* KSDispatchGroupcController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E604856C2452B4F30070A045 /* iOSInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E604856F2452B4F30070A045 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E60485712452B4F30070A045 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E60485742452B4F30070A045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E60485762452B4F30070A045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E60485792452B4F30070A045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E604857B2452B4F30070A045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E64BB8AA2452B70B008D7DB5 /* KSBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSBaseViewController.swift; sourceTree = "<group>"; };
+		E64BB8B22452BA73008D7DB5 /* iOSInterview-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSInterview-Bridging-Header.h"; sourceTree = "<group>"; };
+		E64BB8B62452BB2B008D7DB5 /* KSRunloopController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSRunloopController.h; sourceTree = "<group>"; };
+		E64BB8B72452BB2B008D7DB5 /* KSRunloopController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSRunloopController.m; sourceTree = "<group>"; };
+		E64BB8BC2452BB83008D7DB5 /* UIViewController+KSCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KSCategory.h"; sourceTree = "<group>"; };
+		E64BB8BD2452BB83008D7DB5 /* UIViewController+KSCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KSCategory.m"; sourceTree = "<group>"; };
+		E64BB8BF2452BBCE008D7DB5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E64BB8C02452BBF7008D7DB5 /* UIViewController+KSExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KSExtension.h"; sourceTree = "<group>"; };
+		E64BB8C12452BC12008D7DB5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E64BB8C22452BC4B008D7DB5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E64BB8C32452BD28008D7DB5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E64BB8C42452BF35008D7DB5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E64BB8C92452C293008D7DB5 /* KSDispatchGroupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSDispatchGroupController.swift; sourceTree = "<group>"; };
+		E64BB8CC2452C39C008D7DB5 /* KSLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSLog.swift; sourceTree = "<group>"; };
+		E64BB8CE2452C444008D7DB5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E64BB8D32452C895008D7DB5 /* DispatchGroup.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DispatchGroup.md; sourceTree = "<group>"; };
+		E64BB8D42452C905008D7DB5 /* KSDispatchGroupcController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSDispatchGroupcController.h; sourceTree = "<group>"; };
+		E64BB8D52452C905008D7DB5 /* KSDispatchGroupcController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSDispatchGroupcController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E60485692452B4F30070A045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E60485632452B4F30070A045 = {
+			isa = PBXGroup;
+			children = (
+				E604856E2452B4F30070A045 /* iOSInterview */,
+				E604856D2452B4F30070A045 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E604856D2452B4F30070A045 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E604856C2452B4F30070A045 /* iOSInterview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E604856E2452B4F30070A045 /* iOSInterview */ = {
+			isa = PBXGroup;
+			children = (
+				E64BB8952452B575008D7DB5 /* Scripts */,
+				E60485732452B4F30070A045 /* Main.storyboard */,
+				E60485762452B4F30070A045 /* Assets.xcassets */,
+				E60485782452B4F30070A045 /* LaunchScreen.storyboard */,
+				E604857B2452B4F30070A045 /* Info.plist */,
+			);
+			path = iOSInterview;
+			sourceTree = "<group>";
+		};
+		E64BB8952452B575008D7DB5 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				E64BB8B02452B8E6008D7DB5 /* OC */,
+				E64BB8982452B58C008D7DB5 /* Main */,
+				E64BB8972452B586008D7DB5 /* Classes */,
+				E64BB8962452B580008D7DB5 /* Custom */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		E64BB8962452B580008D7DB5 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				E64BB8CB2452C372008D7DB5 /* Tools */,
+				E64BB8A42452B604008D7DB5 /* Extension */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		E64BB8972452B586008D7DB5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E64BB8C52452C26E008D7DB5 /* GCD */,
+				E64BB8A62452B6F7008D7DB5 /* BaseClass */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E64BB8982452B58C008D7DB5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E64BB89A2452B59B008D7DB5 /* Controller */,
+				E64BB8992452B595008D7DB5 /* AppDelegate */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E64BB8992452B595008D7DB5 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E604856F2452B4F30070A045 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		E64BB89A2452B59B008D7DB5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E60485712452B4F30070A045 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E64BB89B2452B5DC008D7DB5 /* ISA */ = {
+			isa = PBXGroup;
+			children = (
+				E64BB89C2452B5DC008D7DB5 /* Controller */,
+				E64BB89D2452B5DC008D7DB5 /* Model */,
+				E64BB89E2452B5DC008D7DB5 /* View */,
+				E64BB8C22452BC4B008D7DB5 /* README.md */,
+			);
+			path = ISA;
+			sourceTree = "<group>";
+		};
+		E64BB89C2452B5DC008D7DB5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E64BB89D2452B5DC008D7DB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E64BB89E2452B5DC008D7DB5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E64BB8A02452B5F7008D7DB5 /* Runloop */ = {
+			isa = PBXGroup;
+			children = (
+				E64BB8A12452B5F7008D7DB5 /* Controller */,
+				E64BB8A22452B5F7008D7DB5 /* Model */,
+				E64BB8A32452B5F7008D7DB5 /* View */,
+				E64BB8C42452BF35008D7DB5 /* README.md */,
+			);
+			path = Runloop;
+			sourceTree = "<group>";
+		};
+		E64BB8A12452B5F7008D7DB5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E64BB8B62452BB2B008D7DB5 /* KSRunloopController.h */,
+				E64BB8B72452BB2B008D7DB5 /* KSRunloopController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E64BB8A22452B5F7008D7DB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E64BB8A32452B5F7008D7DB5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E64BB8A42452B604008D7DB5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E64BB8C32452BD28008D7DB5 /* README.md */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E64BB8A62452B6F7008D7DB5 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				E64BB8A72452B6F7008D7DB5 /* Controller */,
+				E64BB8A82452B6F7008D7DB5 /* Model */,
+				E64BB8A92452B6F7008D7DB5 /* View */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		E64BB8A72452B6F7008D7DB5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E64BB8AA2452B70B008D7DB5 /* KSBaseViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E64BB8A82452B6F7008D7DB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E64BB8A92452B6F7008D7DB5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E64BB8B02452B8E6008D7DB5 /* OC */ = {
+			isa = PBXGroup;
+			children = (
+				E64BB8B92452BB44008D7DB5 /* Custom */,
+				E64BB8B12452B8F5008D7DB5 /* Classes */,
+				E64BB8B22452BA73008D7DB5 /* iOSInterview-Bridging-Header.h */,
+			);
+			path = OC;
+			sourceTree = "<group>";
+		};
+		E64BB8B12452B8F5008D7DB5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E64BB8CF2452C70F008D7DB5 /* GCD */,
+				E64BB89B2452B5DC008D7DB5 /* ISA */,
+				E64BB8A02452B5F7008D7DB5 /* Runloop */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E64BB8B92452BB44008D7DB5 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				E64BB8BA2452BB58008D7DB5 /* Category */,
+				E64BB8BB2452BB5E008D7DB5 /* Extension */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		E64BB8BA2452BB58008D7DB5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E64BB8BC2452BB83008D7DB5 /* UIViewController+KSCategory.h */,
+				E64BB8BD2452BB83008D7DB5 /* UIViewController+KSCategory.m */,
+				E64BB8BF2452BBCE008D7DB5 /* README.md */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E64BB8BB2452BB5E008D7DB5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E64BB8C02452BBF7008D7DB5 /* UIViewController+KSExtension.h */,
+				E64BB8C12452BC12008D7DB5 /* README.md */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E64BB8C52452C26E008D7DB5 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				E64BB8C62452C26E008D7DB5 /* Controller */,
+				E64BB8C72452C26E008D7DB5 /* Model */,
+				E64BB8C82452C26E008D7DB5 /* View */,
+				E64BB8CE2452C444008D7DB5 /* README.md */,
+				E64BB8D32452C895008D7DB5 /* DispatchGroup.md */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		E64BB8C62452C26E008D7DB5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E64BB8C92452C293008D7DB5 /* KSDispatchGroupController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E64BB8C72452C26E008D7DB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E64BB8C82452C26E008D7DB5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E64BB8CB2452C372008D7DB5 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				E64BB8CC2452C39C008D7DB5 /* KSLog.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E64BB8CF2452C70F008D7DB5 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				E64BB8D02452C70F008D7DB5 /* Controller */,
+				E64BB8D12452C70F008D7DB5 /* Model */,
+				E64BB8D22452C70F008D7DB5 /* View */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		E64BB8D02452C70F008D7DB5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E64BB8D42452C905008D7DB5 /* KSDispatchGroupcController.h */,
+				E64BB8D52452C905008D7DB5 /* KSDispatchGroupcController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E64BB8D12452C70F008D7DB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E64BB8D22452C70F008D7DB5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E604856B2452B4F30070A045 /* iOSInterview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E604857E2452B4F30070A045 /* Build configuration list for PBXNativeTarget "iOSInterview" */;
+			buildPhases = (
+				E60485682452B4F30070A045 /* Sources */,
+				E60485692452B4F30070A045 /* Frameworks */,
+				E604856A2452B4F30070A045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSInterview;
+			productName = iOSInterview;
+			productReference = E604856C2452B4F30070A045 /* iOSInterview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E60485642452B4F30070A045 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KS;
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = saeipi;
+				TargetAttributes = {
+					E604856B2452B4F30070A045 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1100;
+					};
+				};
+			};
+			buildConfigurationList = E60485672452B4F30070A045 /* Build configuration list for PBXProject "iOSInterview" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E60485632452B4F30070A045;
+			productRefGroup = E604856D2452B4F30070A045 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E604856B2452B4F30070A045 /* iOSInterview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E604856A2452B4F30070A045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E604857A2452B4F30070A045 /* LaunchScreen.storyboard in Resources */,
+				E60485772452B4F30070A045 /* Assets.xcassets in Resources */,
+				E60485752452B4F30070A045 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E60485682452B4F30070A045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64BB8D62452C905008D7DB5 /* KSDispatchGroupcController.m in Sources */,
+				E60485722452B4F30070A045 /* ViewController.swift in Sources */,
+				E64BB8BE2452BB83008D7DB5 /* UIViewController+KSCategory.m in Sources */,
+				E64BB8CA2452C293008D7DB5 /* KSDispatchGroupController.swift in Sources */,
+				E64BB8B82452BB2B008D7DB5 /* KSRunloopController.m in Sources */,
+				E64BB8AB2452B70B008D7DB5 /* KSBaseViewController.swift in Sources */,
+				E60485702452B4F30070A045 /* AppDelegate.swift in Sources */,
+				E64BB8CD2452C39C008D7DB5 /* KSLog.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E60485732452B4F30070A045 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E60485742452B4F30070A045 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E60485782452B4F30070A045 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E60485792452B4F30070A045 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E604857C2452B4F30070A045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E604857D2452B4F30070A045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E604857F2452B4F30070A045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSInterview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saeipi.com.iOSInterview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOSInterview/Scripts/OC/iOSInterview-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E60485802452B4F30070A045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSInterview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saeipi.com.iOSInterview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOSInterview/Scripts/OC/iOSInterview-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E60485672452B4F30070A045 /* Build configuration list for PBXProject "iOSInterview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E604857C2452B4F30070A045 /* Debug */,
+				E604857D2452B4F30070A045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E604857E2452B4F30070A045 /* Build configuration list for PBXNativeTarget "iOSInterview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E604857F2452B4F30070A045 /* Debug */,
+				E60485802452B4F30070A045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E60485642452B4F30070A045 /* Project object */;
+}
