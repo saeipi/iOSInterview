@@ -23,6 +23,18 @@
 		E655E0182452FCC300FA359B /* KSSandboxController.m in Sources */ = {isa = PBXBuildFile; fileRef = E655E0172452FCC300FA359B /* KSSandboxController.m */; };
 		E655E01D2452FFE500FA359B /* KSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = E655E01C2452FFE500FA359B /* KSUser.m */; };
 		E655E0282453049A00FA359B /* KSReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = E655E0272453049A00FA359B /* KSReflection.m */; };
+		E6DCC4C124540921004092FC /* UIButton+KSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCC4BB24540920004092FC /* UIButton+KSExtensions.swift */; };
+		E6DCC4C224540921004092FC /* UIViewController+KSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCC4BC24540920004092FC /* UIViewController+KSExtensions.swift */; };
+		E6DCC4C324540921004092FC /* NSObject+KSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCC4BD24540920004092FC /* NSObject+KSExtensions.swift */; };
+		E6DCC4C424540921004092FC /* UIImage+KSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCC4BE24540920004092FC /* UIImage+KSExtensions.swift */; };
+		E6DCC4C524540921004092FC /* UILabel+KSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCC4BF24540921004092FC /* UILabel+KSExtensions.swift */; };
+		E6DCC4C624540921004092FC /* NSDecimalNumber+KSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCC4C024540921004092FC /* NSDecimalNumber+KSExtensions.swift */; };
+		E6DCC4CC24540B67004092FC /* CGFloat+KSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCC4C724540B65004092FC /* CGFloat+KSExtensions.swift */; };
+		E6DCC4CD24540B67004092FC /* Double+KSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCC4C824540B66004092FC /* Double+KSExtensions.swift */; };
+		E6DCC4CE24540B67004092FC /* String+KSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCC4C924540B66004092FC /* String+KSExtensions.swift */; };
+		E6DCC4CF24540B67004092FC /* Date+KSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCC4CA24540B66004092FC /* Date+KSExtensions.swift */; };
+		E6DCC4D024540B67004092FC /* UIColor+KSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCC4CB24540B66004092FC /* UIColor+KSExtensions.swift */; };
+		E6DCC4D524541BD1004092FC /* KSLockController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DCC4D424541BD1004092FC /* KSLockController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +73,19 @@
 		E655E01C2452FFE500FA359B /* KSUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSUser.m; sourceTree = "<group>"; };
 		E655E0262453049A00FA359B /* KSReflection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSReflection.h; sourceTree = "<group>"; };
 		E655E0272453049A00FA359B /* KSReflection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSReflection.m; sourceTree = "<group>"; };
+		E6DCC4BB24540920004092FC /* UIButton+KSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+KSExtensions.swift"; sourceTree = "<group>"; };
+		E6DCC4BC24540920004092FC /* UIViewController+KSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+KSExtensions.swift"; sourceTree = "<group>"; };
+		E6DCC4BD24540920004092FC /* NSObject+KSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+KSExtensions.swift"; sourceTree = "<group>"; };
+		E6DCC4BE24540920004092FC /* UIImage+KSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+KSExtensions.swift"; sourceTree = "<group>"; };
+		E6DCC4BF24540921004092FC /* UILabel+KSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+KSExtensions.swift"; sourceTree = "<group>"; };
+		E6DCC4C024540921004092FC /* NSDecimalNumber+KSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDecimalNumber+KSExtensions.swift"; sourceTree = "<group>"; };
+		E6DCC4C724540B65004092FC /* CGFloat+KSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+KSExtensions.swift"; sourceTree = "<group>"; };
+		E6DCC4C824540B66004092FC /* Double+KSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+KSExtensions.swift"; sourceTree = "<group>"; };
+		E6DCC4C924540B66004092FC /* String+KSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+KSExtensions.swift"; sourceTree = "<group>"; };
+		E6DCC4CA24540B66004092FC /* Date+KSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+KSExtensions.swift"; sourceTree = "<group>"; };
+		E6DCC4CB24540B66004092FC /* UIColor+KSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+KSExtensions.swift"; sourceTree = "<group>"; };
+		E6DCC4D324541BD1004092FC /* KSLockController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSLockController.h; sourceTree = "<group>"; };
+		E6DCC4D424541BD1004092FC /* KSLockController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSLockController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +159,7 @@
 		E64BB8982452B58C008D7DB5 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				E6DCC4BA24540689004092FC /* Model */,
 				E64BB89A2452B59B008D7DB5 /* Controller */,
 				E64BB8992452B595008D7DB5 /* AppDelegate */,
 			);
@@ -225,6 +251,17 @@
 		E64BB8A42452B604008D7DB5 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				E6DCC4C724540B65004092FC /* CGFloat+KSExtensions.swift */,
+				E6DCC4CA24540B66004092FC /* Date+KSExtensions.swift */,
+				E6DCC4C824540B66004092FC /* Double+KSExtensions.swift */,
+				E6DCC4C924540B66004092FC /* String+KSExtensions.swift */,
+				E6DCC4CB24540B66004092FC /* UIColor+KSExtensions.swift */,
+				E6DCC4C024540921004092FC /* NSDecimalNumber+KSExtensions.swift */,
+				E6DCC4BD24540920004092FC /* NSObject+KSExtensions.swift */,
+				E6DCC4BB24540920004092FC /* UIButton+KSExtensions.swift */,
+				E6DCC4BE24540920004092FC /* UIImage+KSExtensions.swift */,
+				E6DCC4BF24540921004092FC /* UILabel+KSExtensions.swift */,
+				E6DCC4BC24540920004092FC /* UIViewController+KSExtensions.swift */,
 				E64BB8C32452BD28008D7DB5 /* README.md */,
 			);
 			path = Extension;
@@ -275,6 +312,7 @@
 		E64BB8B12452B8F5008D7DB5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E6DCC4D12454164E004092FC /* Lock */,
 				E655E0122452FCAE00FA359B /* Sandbox */,
 				E655E0062452F08400FA359B /* Keychain */,
 				E64BB8CF2452C70F008D7DB5 /* GCD */,
@@ -499,6 +537,30 @@
 			path = Reflection;
 			sourceTree = "<group>";
 		};
+		E6DCC4BA24540689004092FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E6DCC4D12454164E004092FC /* Lock */ = {
+			isa = PBXGroup;
+			children = (
+				E6DCC4D22454164E004092FC /* Controller */,
+			);
+			path = Lock;
+			sourceTree = "<group>";
+		};
+		E6DCC4D22454164E004092FC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E6DCC4D324541BD1004092FC /* KSLockController.h */,
+				E6DCC4D424541BD1004092FC /* KSLockController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -573,17 +635,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				E64BB8D62452C905008D7DB5 /* KSDispatchGroupcController.m in Sources */,
+				E6DCC4CD24540B67004092FC /* Double+KSExtensions.swift in Sources */,
+				E6DCC4CE24540B67004092FC /* String+KSExtensions.swift in Sources */,
 				E60485722452B4F30070A045 /* ViewController.swift in Sources */,
 				E655E0182452FCC300FA359B /* KSSandboxController.m in Sources */,
 				E64BB8BE2452BB83008D7DB5 /* UIViewController+KSCategory.m in Sources */,
 				E655E0282453049A00FA359B /* KSReflection.m in Sources */,
 				E655E01D2452FFE500FA359B /* KSUser.m in Sources */,
+				E6DCC4CC24540B67004092FC /* CGFloat+KSExtensions.swift in Sources */,
 				E64BB8CA2452C293008D7DB5 /* KSDispatchGroupController.swift in Sources */,
+				E6DCC4C324540921004092FC /* NSObject+KSExtensions.swift in Sources */,
+				E6DCC4D024540B67004092FC /* UIColor+KSExtensions.swift in Sources */,
+				E6DCC4C424540921004092FC /* UIImage+KSExtensions.swift in Sources */,
+				E6DCC4C124540921004092FC /* UIButton+KSExtensions.swift in Sources */,
 				E64BB8B82452BB2B008D7DB5 /* KSRunloopController.m in Sources */,
+				E6DCC4C624540921004092FC /* NSDecimalNumber+KSExtensions.swift in Sources */,
 				E655E0112452F13000FA359B /* KSKeychain.m in Sources */,
 				E655E00C2452F09F00FA359B /* KSKeychainController.m in Sources */,
 				E64BB8AB2452B70B008D7DB5 /* KSBaseViewController.swift in Sources */,
+				E6DCC4D524541BD1004092FC /* KSLockController.m in Sources */,
 				E60485702452B4F30070A045 /* AppDelegate.swift in Sources */,
+				E6DCC4C224540921004092FC /* UIViewController+KSExtensions.swift in Sources */,
+				E6DCC4CF24540B67004092FC /* Date+KSExtensions.swift in Sources */,
+				E6DCC4C524540921004092FC /* UILabel+KSExtensions.swift in Sources */,
 				E64BB8CD2452C39C008D7DB5 /* KSLog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
