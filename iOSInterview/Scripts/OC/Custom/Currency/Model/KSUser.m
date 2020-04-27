@@ -35,4 +35,12 @@
     return user;
 }
 
+-(void)updateInfo {
+    NSLog(@"KSUser updateInfo");
+}
+
+-(void)dealloc {
+    NSLog(@"KSUser dealloc");
+}
+
 @end

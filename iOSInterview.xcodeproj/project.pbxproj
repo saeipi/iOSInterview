@@ -24,6 +24,8 @@
 		E655E01D2452FFE500FA359B /* KSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = E655E01C2452FFE500FA359B /* KSUser.m */; };
 		E655E0282453049A00FA359B /* KSReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = E655E0272453049A00FA359B /* KSReflection.m */; };
 		E67D37262456B1AA00174D75 /* KSMemoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = E67D37252456B1AA00174D75 /* KSMemoryController.m */; };
+		E67D37562456C93900174D75 /* KSAssignController.m in Sources */ = {isa = PBXBuildFile; fileRef = E67D37552456C93900174D75 /* KSAssignController.m */; };
+		E67D375D2456F85E00174D75 /* KSBarrierController.m in Sources */ = {isa = PBXBuildFile; fileRef = E67D375C2456F85E00174D75 /* KSBarrierController.m */; };
 		E6DCC4C124540921004092FC /* UIButton+KSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCC4BB24540920004092FC /* UIButton+KSExtensions.swift */; };
 		E6DCC4C224540921004092FC /* UIViewController+KSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCC4BC24540920004092FC /* UIViewController+KSExtensions.swift */; };
 		E6DCC4C324540921004092FC /* NSObject+KSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCC4BD24540920004092FC /* NSObject+KSExtensions.swift */; };
@@ -77,6 +79,11 @@
 		E67D37242456B1AA00174D75 /* KSMemoryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSMemoryController.h; sourceTree = "<group>"; };
 		E67D37252456B1AA00174D75 /* KSMemoryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSMemoryController.m; sourceTree = "<group>"; };
 		E67D37272456B1C200174D75 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E67D37542456C93900174D75 /* KSAssignController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSAssignController.h; sourceTree = "<group>"; };
+		E67D37552456C93900174D75 /* KSAssignController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSAssignController.m; sourceTree = "<group>"; };
+		E67D375B2456F85E00174D75 /* KSBarrierController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSBarrierController.h; sourceTree = "<group>"; };
+		E67D375C2456F85E00174D75 /* KSBarrierController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSBarrierController.m; sourceTree = "<group>"; };
+		E67D375E2456F86E00174D75 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E6DCC4BB24540920004092FC /* UIButton+KSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+KSExtensions.swift"; sourceTree = "<group>"; };
 		E6DCC4BC24540920004092FC /* UIViewController+KSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+KSExtensions.swift"; sourceTree = "<group>"; };
 		E6DCC4BD24540920004092FC /* NSObject+KSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+KSExtensions.swift"; sourceTree = "<group>"; };
@@ -316,6 +323,8 @@
 		E64BB8B12452B8F5008D7DB5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E67D37572456F84F00174D75 /* Barrier */,
+				E67D37502456C90D00174D75 /* Assign */,
 				E67D37202456B19100174D75 /* Memory */,
 				E6DCC4D12454164E004092FC /* Lock */,
 				E655E0122452FCAE00FA359B /* Sandbox */,
@@ -576,6 +585,73 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		E67D37502456C90D00174D75 /* Assign */ = {
+			isa = PBXGroup;
+			children = (
+				E67D37512456C90D00174D75 /* Controller */,
+				E67D37522456C90D00174D75 /* Model */,
+				E67D37532456C90D00174D75 /* View */,
+			);
+			path = Assign;
+			sourceTree = "<group>";
+		};
+		E67D37512456C90D00174D75 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E67D37542456C93900174D75 /* KSAssignController.h */,
+				E67D37552456C93900174D75 /* KSAssignController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E67D37522456C90D00174D75 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E67D37532456C90D00174D75 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E67D37572456F84F00174D75 /* Barrier */ = {
+			isa = PBXGroup;
+			children = (
+				E67D37582456F84F00174D75 /* Controller */,
+				E67D37592456F84F00174D75 /* Model */,
+				E67D375A2456F84F00174D75 /* View */,
+				E67D375E2456F86E00174D75 /* README.md */,
+			);
+			path = Barrier;
+			sourceTree = "<group>";
+		};
+		E67D37582456F84F00174D75 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E67D375B2456F85E00174D75 /* KSBarrierController.h */,
+				E67D375C2456F85E00174D75 /* KSBarrierController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E67D37592456F84F00174D75 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E67D375A2456F84F00174D75 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E6DCC4BA24540689004092FC /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -680,6 +756,7 @@
 				E655E0182452FCC300FA359B /* KSSandboxController.m in Sources */,
 				E64BB8BE2452BB83008D7DB5 /* UIViewController+KSCategory.m in Sources */,
 				E655E0282453049A00FA359B /* KSReflection.m in Sources */,
+				E67D37562456C93900174D75 /* KSAssignController.m in Sources */,
 				E655E01D2452FFE500FA359B /* KSUser.m in Sources */,
 				E6DCC4CC24540B67004092FC /* CGFloat+KSExtensions.swift in Sources */,
 				E64BB8CA2452C293008D7DB5 /* KSDispatchGroupController.swift in Sources */,
@@ -697,6 +774,7 @@
 				E60485702452B4F30070A045 /* AppDelegate.swift in Sources */,
 				E6DCC4C224540921004092FC /* UIViewController+KSExtensions.swift in Sources */,
 				E6DCC4CF24540B67004092FC /* Date+KSExtensions.swift in Sources */,
+				E67D375D2456F85E00174D75 /* KSBarrierController.m in Sources */,
 				E6DCC4C524540921004092FC /* UILabel+KSExtensions.swift in Sources */,
 				E64BB8CD2452C39C008D7DB5 /* KSLog.swift in Sources */,
 			);

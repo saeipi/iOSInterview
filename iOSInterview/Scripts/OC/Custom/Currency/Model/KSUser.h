@@ -14,4 +14,7 @@
 @property (nonatomic, copy  ) NSString  *name;
 @property (nonatomic, copy  ) NSString  *email;
 @property (nonatomic, strong) KSUser    *related;
+
+-(void)updateInfo;
+
 @end
