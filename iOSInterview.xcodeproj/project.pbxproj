@@ -23,6 +23,7 @@
 		E655E0182452FCC300FA359B /* KSSandboxController.m in Sources */ = {isa = PBXBuildFile; fileRef = E655E0172452FCC300FA359B /* KSSandboxController.m */; };
 		E655E01D2452FFE500FA359B /* KSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = E655E01C2452FFE500FA359B /* KSUser.m */; };
 		E655E0282453049A00FA359B /* KSReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = E655E0272453049A00FA359B /* KSReflection.m */; };
+		E67D37262456B1AA00174D75 /* KSMemoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = E67D37252456B1AA00174D75 /* KSMemoryController.m */; };
 		E6DCC4C124540921004092FC /* UIButton+KSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCC4BB24540920004092FC /* UIButton+KSExtensions.swift */; };
 		E6DCC4C224540921004092FC /* UIViewController+KSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCC4BC24540920004092FC /* UIViewController+KSExtensions.swift */; };
 		E6DCC4C324540921004092FC /* NSObject+KSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCC4BD24540920004092FC /* NSObject+KSExtensions.swift */; };
@@ -73,6 +74,9 @@
 		E655E01C2452FFE500FA359B /* KSUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSUser.m; sourceTree = "<group>"; };
 		E655E0262453049A00FA359B /* KSReflection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSReflection.h; sourceTree = "<group>"; };
 		E655E0272453049A00FA359B /* KSReflection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSReflection.m; sourceTree = "<group>"; };
+		E67D37242456B1AA00174D75 /* KSMemoryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSMemoryController.h; sourceTree = "<group>"; };
+		E67D37252456B1AA00174D75 /* KSMemoryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSMemoryController.m; sourceTree = "<group>"; };
+		E67D37272456B1C200174D75 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E6DCC4BB24540920004092FC /* UIButton+KSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+KSExtensions.swift"; sourceTree = "<group>"; };
 		E6DCC4BC24540920004092FC /* UIViewController+KSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+KSExtensions.swift"; sourceTree = "<group>"; };
 		E6DCC4BD24540920004092FC /* NSObject+KSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+KSExtensions.swift"; sourceTree = "<group>"; };
@@ -312,6 +316,7 @@
 		E64BB8B12452B8F5008D7DB5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E67D37202456B19100174D75 /* Memory */,
 				E6DCC4D12454164E004092FC /* Lock */,
 				E655E0122452FCAE00FA359B /* Sandbox */,
 				E655E0062452F08400FA359B /* Keychain */,
@@ -537,6 +542,40 @@
 			path = Reflection;
 			sourceTree = "<group>";
 		};
+		E67D37202456B19100174D75 /* Memory */ = {
+			isa = PBXGroup;
+			children = (
+				E67D37212456B19100174D75 /* Controller */,
+				E67D37222456B19100174D75 /* Model */,
+				E67D37232456B19100174D75 /* View */,
+				E67D37272456B1C200174D75 /* README.md */,
+			);
+			path = Memory;
+			sourceTree = "<group>";
+		};
+		E67D37212456B19100174D75 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E67D37242456B1AA00174D75 /* KSMemoryController.h */,
+				E67D37252456B1AA00174D75 /* KSMemoryController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E67D37222456B19100174D75 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E67D37232456B19100174D75 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E6DCC4BA24540689004092FC /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -650,6 +689,7 @@
 				E6DCC4C124540921004092FC /* UIButton+KSExtensions.swift in Sources */,
 				E64BB8B82452BB2B008D7DB5 /* KSRunloopController.m in Sources */,
 				E6DCC4C624540921004092FC /* NSDecimalNumber+KSExtensions.swift in Sources */,
+				E67D37262456B1AA00174D75 /* KSMemoryController.m in Sources */,
 				E655E0112452F13000FA359B /* KSKeychain.m in Sources */,
 				E655E00C2452F09F00FA359B /* KSKeychainController.m in Sources */,
 				E64BB8AB2452B70B008D7DB5 /* KSBaseViewController.swift in Sources */,
