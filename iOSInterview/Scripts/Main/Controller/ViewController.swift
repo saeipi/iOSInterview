@@ -8,45 +8,48 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: KSBaseViewController {
 
     let mainCellIdentifier = "mainCellIdentifier"
+    lazy var viewData: KSMainViewData = KSMainViewData()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         self.view.backgroundColor          = UIColor.white
         let flowLayout                     = UICollectionViewFlowLayout()
-        flowLayout.itemSize                = CGSize.init(width: self.ks_screenWidth()/4, height: 50)
-        flowLayout.minimumLineSpacing      = 0//同一组当中，行与行之间的最小行间距，但是不同组之间的不同行cell不受这个值影响。
-        flowLayout.minimumInteritemSpacing = 0//同一行的cell中互相之间的最小间隔，设置这个值之后，那么cell与cell之间至少为这个值
-        flowLayout.scrollDirection         = .vertical
+        flowLayout.itemSize                = CGSize.init(width: self.ks_screenWidth()/2 - 10, height: 50)
+        flowLayout.minimumLineSpacing      = 2//同一组当中，行与行之间的最小行间距，但是不同组之间的不同行cell不受这个值影响。
+        flowLayout.minimumInteritemSpacing = 2//同一行的cell中互相之间的最小间隔，设置这个值之后，那么cell与cell之间至少为这个值
         let collectionView                 = UICollectionView.init(frame: self.view.bounds, collectionViewLayout: flowLayout)
         collectionView.backgroundColor     = UIColor.white
         self.view.addSubview(collectionView)
         collectionView.dataSource          = self
-        collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: mainCellIdentifier)
+        collectionView.delegate            = self
+        collectionView.register(KSMainCollectionViewCell.self, forCellWithReuseIdentifier: mainCellIdentifier)
         
-        /*
-        let args                           = NSMutableDictionary()
-        args["className"]                  = "KSSandboxController"
-        args["isCallMethod"]               = true
-        args["method"]                     = "keyedArchiver"
-        KSReflection.routeNavigationCtrl(self.navigationController, args: args)
-        */
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
 }
 
-extension ViewController: UICollectionViewDataSource {
+extension ViewController: UICollectionViewDataSource,UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 100
+        return viewData.datas.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: mainCellIdentifier, for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: mainCellIdentifier, for: indexPath) as! KSMainCollectionViewCell
+        cell.updateTitle(_title: viewData.datas[indexPath.item].desc)
         return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let page = self.viewData.datas[indexPath.row];
+        _ = self.routerPush(self.navigationController, classType: page.type)
     }
 }

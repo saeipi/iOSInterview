@@ -12,6 +12,10 @@
 		E60485752452B4F30070A045 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E60485732452B4F30070A045 /* Main.storyboard */; };
 		E60485772452B4F30070A045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E60485762452B4F30070A045 /* Assets.xcassets */; };
 		E604857A2452B4F30070A045 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E60485782452B4F30070A045 /* LaunchScreen.storyboard */; };
+		E61FCC7A2457CB2900E87D56 /* KSKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = E61FCC792457CB2900E87D56 /* KSKVOController.m */; };
+		E61FCC822457FEDC00E87D56 /* KSMainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61FCC812457FEDC00E87D56 /* KSMainCollectionViewCell.swift */; };
+		E61FCC84245801E500E87D56 /* KSMainViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61FCC83245801E500E87D56 /* KSMainViewData.swift */; };
+		E61FCC862458025600E87D56 /* KSFunctionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61FCC852458025600E87D56 /* KSFunctionPage.swift */; };
 		E64BB8AB2452B70B008D7DB5 /* KSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64BB8AA2452B70B008D7DB5 /* KSBaseViewController.swift */; };
 		E64BB8B82452BB2B008D7DB5 /* KSRunloopController.m in Sources */ = {isa = PBXBuildFile; fileRef = E64BB8B72452BB2B008D7DB5 /* KSRunloopController.m */; };
 		E64BB8BE2452BB83008D7DB5 /* UIViewController+KSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E64BB8BD2452BB83008D7DB5 /* UIViewController+KSCategory.m */; };
@@ -26,6 +30,8 @@
 		E67D37262456B1AA00174D75 /* KSMemoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = E67D37252456B1AA00174D75 /* KSMemoryController.m */; };
 		E67D37562456C93900174D75 /* KSAssignController.m in Sources */ = {isa = PBXBuildFile; fileRef = E67D37552456C93900174D75 /* KSAssignController.m */; };
 		E67D375D2456F85E00174D75 /* KSBarrierController.m in Sources */ = {isa = PBXBuildFile; fileRef = E67D375C2456F85E00174D75 /* KSBarrierController.m */; };
+		E6D0EE7A2458187600C35F24 /* KSConstValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D0EE792458187600C35F24 /* KSConstValue.swift */; };
+		E6D0EE81245818FC00C35F24 /* KSBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D0EE80245818FC00C35F24 /* KSBaseController.m */; };
 		E6DCC4C124540921004092FC /* UIButton+KSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCC4BB24540920004092FC /* UIButton+KSExtensions.swift */; };
 		E6DCC4C224540921004092FC /* UIViewController+KSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCC4BC24540920004092FC /* UIViewController+KSExtensions.swift */; };
 		E6DCC4C324540921004092FC /* NSObject+KSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCC4BD24540920004092FC /* NSObject+KSExtensions.swift */; };
@@ -48,6 +54,11 @@
 		E60485762452B4F30070A045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E60485792452B4F30070A045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E604857B2452B4F30070A045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E61FCC782457CB2900E87D56 /* KSKVOController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSKVOController.h; sourceTree = "<group>"; };
+		E61FCC792457CB2900E87D56 /* KSKVOController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSKVOController.m; sourceTree = "<group>"; };
+		E61FCC812457FEDC00E87D56 /* KSMainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSMainCollectionViewCell.swift; sourceTree = "<group>"; };
+		E61FCC83245801E500E87D56 /* KSMainViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSMainViewData.swift; sourceTree = "<group>"; };
+		E61FCC852458025600E87D56 /* KSFunctionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSFunctionPage.swift; sourceTree = "<group>"; };
 		E64BB8AA2452B70B008D7DB5 /* KSBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSBaseViewController.swift; sourceTree = "<group>"; };
 		E64BB8B22452BA73008D7DB5 /* iOSInterview-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSInterview-Bridging-Header.h"; sourceTree = "<group>"; };
 		E64BB8B62452BB2B008D7DB5 /* KSRunloopController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSRunloopController.h; sourceTree = "<group>"; };
@@ -84,6 +95,10 @@
 		E67D375B2456F85E00174D75 /* KSBarrierController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSBarrierController.h; sourceTree = "<group>"; };
 		E67D375C2456F85E00174D75 /* KSBarrierController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSBarrierController.m; sourceTree = "<group>"; };
 		E67D375E2456F86E00174D75 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E6D0EE772458119400C35F24 /* KSGlobalImport.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSGlobalImport.pch; sourceTree = "<group>"; };
+		E6D0EE792458187600C35F24 /* KSConstValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSConstValue.swift; sourceTree = "<group>"; };
+		E6D0EE7F245818FC00C35F24 /* KSBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSBaseController.h; sourceTree = "<group>"; };
+		E6D0EE80245818FC00C35F24 /* KSBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSBaseController.m; sourceTree = "<group>"; };
 		E6DCC4BB24540920004092FC /* UIButton+KSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+KSExtensions.swift"; sourceTree = "<group>"; };
 		E6DCC4BC24540920004092FC /* UIViewController+KSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+KSExtensions.swift"; sourceTree = "<group>"; };
 		E6DCC4BD24540920004092FC /* NSObject+KSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+KSExtensions.swift"; sourceTree = "<group>"; };
@@ -138,6 +153,62 @@
 			path = iOSInterview;
 			sourceTree = "<group>";
 		};
+		E61FCC742457CB1100E87D56 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				E61FCC752457CB1100E87D56 /* Controller */,
+				E61FCC762457CB1100E87D56 /* Model */,
+				E61FCC772457CB1100E87D56 /* View */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
+		E61FCC752457CB1100E87D56 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E61FCC782457CB2900E87D56 /* KSKVOController.h */,
+				E61FCC792457CB2900E87D56 /* KSKVOController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E61FCC762457CB1100E87D56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E61FCC772457CB1100E87D56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E61FCC7B2457FE3100E87D56 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E61FCC83245801E500E87D56 /* KSMainViewData.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E61FCC7F2457FEB800E87D56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E61FCC802457FEC100E87D56 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E61FCC812457FEDC00E87D56 /* KSMainCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		E64BB8952452B575008D7DB5 /* Scripts */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +223,7 @@
 		E64BB8962452B580008D7DB5 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				E6D0EE782458187600C35F24 /* Const */,
 				E64BB8CB2452C372008D7DB5 /* Tools */,
 				E64BB8A42452B604008D7DB5 /* Extension */,
 			);
@@ -170,6 +242,9 @@
 		E64BB8982452B58C008D7DB5 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				E61FCC802457FEC100E87D56 /* Cell */,
+				E61FCC7F2457FEB800E87D56 /* View */,
+				E61FCC7B2457FE3100E87D56 /* ViewModel */,
 				E6DCC4BA24540689004092FC /* Model */,
 				E64BB89A2452B59B008D7DB5 /* Controller */,
 				E64BB8992452B595008D7DB5 /* AppDelegate */,
@@ -316,6 +391,7 @@
 				E64BB8B92452BB44008D7DB5 /* Custom */,
 				E64BB8B12452B8F5008D7DB5 /* Classes */,
 				E64BB8B22452BA73008D7DB5 /* iOSInterview-Bridging-Header.h */,
+				E6D0EE772458119400C35F24 /* KSGlobalImport.pch */,
 			);
 			path = OC;
 			sourceTree = "<group>";
@@ -323,6 +399,8 @@
 		E64BB8B12452B8F5008D7DB5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E6D0EE7B245818DC00C35F24 /* BaseClass */,
+				E61FCC742457CB1100E87D56 /* KVO */,
 				E67D37572456F84F00174D75 /* Barrier */,
 				E67D37502456C90D00174D75 /* Assign */,
 				E67D37202456B19100174D75 /* Memory */,
@@ -652,9 +730,51 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		E6D0EE782458187600C35F24 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				E6D0EE792458187600C35F24 /* KSConstValue.swift */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		E6D0EE7B245818DC00C35F24 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				E6D0EE7C245818DC00C35F24 /* Controller */,
+				E6D0EE7D245818DC00C35F24 /* Model */,
+				E6D0EE7E245818DC00C35F24 /* View */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		E6D0EE7C245818DC00C35F24 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E6D0EE7F245818FC00C35F24 /* KSBaseController.h */,
+				E6D0EE80245818FC00C35F24 /* KSBaseController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E6D0EE7D245818DC00C35F24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E6D0EE7E245818DC00C35F24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E6DCC4BA24540689004092FC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E61FCC852458025600E87D56 /* KSFunctionPage.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -751,10 +871,14 @@
 			files = (
 				E64BB8D62452C905008D7DB5 /* KSDispatchGroupcController.m in Sources */,
 				E6DCC4CD24540B67004092FC /* Double+KSExtensions.swift in Sources */,
+				E6D0EE7A2458187600C35F24 /* KSConstValue.swift in Sources */,
 				E6DCC4CE24540B67004092FC /* String+KSExtensions.swift in Sources */,
+				E6D0EE81245818FC00C35F24 /* KSBaseController.m in Sources */,
 				E60485722452B4F30070A045 /* ViewController.swift in Sources */,
 				E655E0182452FCC300FA359B /* KSSandboxController.m in Sources */,
+				E61FCC7A2457CB2900E87D56 /* KSKVOController.m in Sources */,
 				E64BB8BE2452BB83008D7DB5 /* UIViewController+KSCategory.m in Sources */,
+				E61FCC822457FEDC00E87D56 /* KSMainCollectionViewCell.swift in Sources */,
 				E655E0282453049A00FA359B /* KSReflection.m in Sources */,
 				E67D37562456C93900174D75 /* KSAssignController.m in Sources */,
 				E655E01D2452FFE500FA359B /* KSUser.m in Sources */,
@@ -762,6 +886,8 @@
 				E64BB8CA2452C293008D7DB5 /* KSDispatchGroupController.swift in Sources */,
 				E6DCC4C324540921004092FC /* NSObject+KSExtensions.swift in Sources */,
 				E6DCC4D024540B67004092FC /* UIColor+KSExtensions.swift in Sources */,
+				E61FCC84245801E500E87D56 /* KSMainViewData.swift in Sources */,
+				E61FCC862458025600E87D56 /* KSFunctionPage.swift in Sources */,
 				E6DCC4C424540921004092FC /* UIImage+KSExtensions.swift in Sources */,
 				E6DCC4C124540921004092FC /* UIButton+KSExtensions.swift in Sources */,
 				E64BB8B82452BB2B008D7DB5 /* KSRunloopController.m in Sources */,
@@ -922,6 +1048,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSInterview/Scripts/OC/KSGlobalImport.pch";
 				INFOPLIST_FILE = iOSInterview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -942,6 +1069,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSInterview/Scripts/OC/KSGlobalImport.pch";
 				INFOPLIST_FILE = iOSInterview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

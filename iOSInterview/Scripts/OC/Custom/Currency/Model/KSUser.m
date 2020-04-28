@@ -41,6 +41,7 @@
 
 -(void)dealloc {
     NSLog(@"KSUser dealloc");
+    [KSBaseViewController alloc];
 }
 
 @end

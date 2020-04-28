@@ -1,0 +1,14 @@
+//
+//  KSGlobalImport.pch
+//  iOSInterview
+//
+//  Created by saeipi on 2020/4/28.
+//  Copyright © 2020 saeipi. All rights reserved.
+//
+
+#ifndef KSGlobalImport_pch
+#define KSGlobalImport_pch
+
+#import "iOSInterview-Swift.h"
+
+#endif /* KSGlobalImport_pch */
