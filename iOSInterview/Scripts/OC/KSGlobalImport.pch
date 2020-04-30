@@ -10,5 +10,6 @@
 #define KSGlobalImport_pch
 
 #import "iOSInterview-Swift.h"
+#import "KSUser.h"
 
 #endif /* KSGlobalImport_pch */

@@ -7,7 +7,6 @@
 //
 
 #import "KSSandboxController.h"
-#import "KSUser.h"
 
 @interface KSSandboxController ()
 

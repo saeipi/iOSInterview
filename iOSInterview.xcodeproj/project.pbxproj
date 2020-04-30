@@ -30,8 +30,12 @@
 		E67D37262456B1AA00174D75 /* KSMemoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = E67D37252456B1AA00174D75 /* KSMemoryController.m */; };
 		E67D37562456C93900174D75 /* KSAssignController.m in Sources */ = {isa = PBXBuildFile; fileRef = E67D37552456C93900174D75 /* KSAssignController.m */; };
 		E67D375D2456F85E00174D75 /* KSBarrierController.m in Sources */ = {isa = PBXBuildFile; fileRef = E67D375C2456F85E00174D75 /* KSBarrierController.m */; };
+		E6ACF43A245A7C6100322BB9 /* KSCopyController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6ACF439245A7C6100322BB9 /* KSCopyController.m */; };
 		E6D0EE7A2458187600C35F24 /* KSConstValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D0EE792458187600C35F24 /* KSConstValue.swift */; };
 		E6D0EE81245818FC00C35F24 /* KSBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D0EE80245818FC00C35F24 /* KSBaseController.m */; };
+		E6D0EE8824581E9200C35F24 /* KSLoadController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D0EE8724581E9200C35F24 /* KSLoadController.m */; };
+		E6D0EE902458244400C35F24 /* KSResponderChainController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D0EE8F2458244400C35F24 /* KSResponderChainController.m */; };
+		E6D0EE9424582F7200C35F24 /* ResponderChain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6D0EE9324582F7200C35F24 /* ResponderChain.jpg */; };
 		E6DCC4C124540921004092FC /* UIButton+KSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCC4BB24540920004092FC /* UIButton+KSExtensions.swift */; };
 		E6DCC4C224540921004092FC /* UIViewController+KSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCC4BC24540920004092FC /* UIViewController+KSExtensions.swift */; };
 		E6DCC4C324540921004092FC /* NSObject+KSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCC4BD24540920004092FC /* NSObject+KSExtensions.swift */; };
@@ -95,10 +99,20 @@
 		E67D375B2456F85E00174D75 /* KSBarrierController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSBarrierController.h; sourceTree = "<group>"; };
 		E67D375C2456F85E00174D75 /* KSBarrierController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSBarrierController.m; sourceTree = "<group>"; };
 		E67D375E2456F86E00174D75 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E6ACF438245A7C6100322BB9 /* KSCopyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSCopyController.h; sourceTree = "<group>"; };
+		E6ACF439245A7C6100322BB9 /* KSCopyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSCopyController.m; sourceTree = "<group>"; };
+		E6ACF43B245A991D00322BB9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E6D0EE772458119400C35F24 /* KSGlobalImport.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSGlobalImport.pch; sourceTree = "<group>"; };
 		E6D0EE792458187600C35F24 /* KSConstValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSConstValue.swift; sourceTree = "<group>"; };
 		E6D0EE7F245818FC00C35F24 /* KSBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSBaseController.h; sourceTree = "<group>"; };
 		E6D0EE80245818FC00C35F24 /* KSBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSBaseController.m; sourceTree = "<group>"; };
+		E6D0EE8624581E9200C35F24 /* KSLoadController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSLoadController.h; sourceTree = "<group>"; };
+		E6D0EE8724581E9200C35F24 /* KSLoadController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSLoadController.m; sourceTree = "<group>"; };
+		E6D0EE892458218300C35F24 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E6D0EE8E2458244400C35F24 /* KSResponderChainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSResponderChainController.h; sourceTree = "<group>"; };
+		E6D0EE8F2458244400C35F24 /* KSResponderChainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSResponderChainController.m; sourceTree = "<group>"; };
+		E6D0EE9224582F1E00C35F24 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E6D0EE9324582F7200C35F24 /* ResponderChain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ResponderChain.jpg; sourceTree = "<group>"; };
 		E6DCC4BB24540920004092FC /* UIButton+KSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+KSExtensions.swift"; sourceTree = "<group>"; };
 		E6DCC4BC24540920004092FC /* UIViewController+KSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+KSExtensions.swift"; sourceTree = "<group>"; };
 		E6DCC4BD24540920004092FC /* NSObject+KSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+KSExtensions.swift"; sourceTree = "<group>"; };
@@ -399,6 +413,9 @@
 		E64BB8B12452B8F5008D7DB5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E6ACF434245A7C3E00322BB9 /* Copy */,
+				E6D0EE8A2458243300C35F24 /* ResponderChain */,
+				E6D0EE8224581E7E00C35F24 /* Load */,
 				E6D0EE7B245818DC00C35F24 /* BaseClass */,
 				E61FCC742457CB1100E87D56 /* KVO */,
 				E67D37572456F84F00174D75 /* Barrier */,
@@ -730,6 +747,40 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		E6ACF434245A7C3E00322BB9 /* Copy */ = {
+			isa = PBXGroup;
+			children = (
+				E6ACF435245A7C3E00322BB9 /* Controller */,
+				E6ACF436245A7C3E00322BB9 /* Model */,
+				E6ACF437245A7C3E00322BB9 /* View */,
+				E6ACF43B245A991D00322BB9 /* README.md */,
+			);
+			path = Copy;
+			sourceTree = "<group>";
+		};
+		E6ACF435245A7C3E00322BB9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E6ACF438245A7C6100322BB9 /* KSCopyController.h */,
+				E6ACF439245A7C6100322BB9 /* KSCopyController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E6ACF436245A7C3E00322BB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E6ACF437245A7C3E00322BB9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E6D0EE782458187600C35F24 /* Const */ = {
 			isa = PBXGroup;
 			children = (
@@ -769,6 +820,83 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		E6D0EE8224581E7E00C35F24 /* Load */ = {
+			isa = PBXGroup;
+			children = (
+				E6D0EE8324581E7E00C35F24 /* Controller */,
+				E6D0EE8424581E7E00C35F24 /* Model */,
+				E6D0EE8524581E7E00C35F24 /* View */,
+				E6D0EE892458218300C35F24 /* README.md */,
+			);
+			path = Load;
+			sourceTree = "<group>";
+		};
+		E6D0EE8324581E7E00C35F24 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E6D0EE8624581E9200C35F24 /* KSLoadController.h */,
+				E6D0EE8724581E9200C35F24 /* KSLoadController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E6D0EE8424581E7E00C35F24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E6D0EE8524581E7E00C35F24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E6D0EE8A2458243300C35F24 /* ResponderChain */ = {
+			isa = PBXGroup;
+			children = (
+				E6D0EE91245824E300C35F24 /* Photo */,
+				E6D0EE8B2458243300C35F24 /* Controller */,
+				E6D0EE8C2458243300C35F24 /* Model */,
+				E6D0EE8D2458243300C35F24 /* View */,
+				E6D0EE9224582F1E00C35F24 /* README.md */,
+			);
+			path = ResponderChain;
+			sourceTree = "<group>";
+		};
+		E6D0EE8B2458243300C35F24 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E6D0EE8E2458244400C35F24 /* KSResponderChainController.h */,
+				E6D0EE8F2458244400C35F24 /* KSResponderChainController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E6D0EE8C2458243300C35F24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E6D0EE8D2458243300C35F24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E6D0EE91245824E300C35F24 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				E6D0EE9324582F7200C35F24 /* ResponderChain.jpg */,
+			);
+			path = Photo;
 			sourceTree = "<group>";
 		};
 		E6DCC4BA24540689004092FC /* Model */ = {
@@ -858,6 +986,7 @@
 			files = (
 				E604857A2452B4F30070A045 /* LaunchScreen.storyboard in Resources */,
 				E60485772452B4F30070A045 /* Assets.xcassets in Resources */,
+				E6D0EE9424582F7200C35F24 /* ResponderChain.jpg in Resources */,
 				E60485752452B4F30070A045 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -878,6 +1007,7 @@
 				E655E0182452FCC300FA359B /* KSSandboxController.m in Sources */,
 				E61FCC7A2457CB2900E87D56 /* KSKVOController.m in Sources */,
 				E64BB8BE2452BB83008D7DB5 /* UIViewController+KSCategory.m in Sources */,
+				E6ACF43A245A7C6100322BB9 /* KSCopyController.m in Sources */,
 				E61FCC822457FEDC00E87D56 /* KSMainCollectionViewCell.swift in Sources */,
 				E655E0282453049A00FA359B /* KSReflection.m in Sources */,
 				E67D37562456C93900174D75 /* KSAssignController.m in Sources */,
@@ -893,6 +1023,7 @@
 				E64BB8B82452BB2B008D7DB5 /* KSRunloopController.m in Sources */,
 				E6DCC4C624540921004092FC /* NSDecimalNumber+KSExtensions.swift in Sources */,
 				E67D37262456B1AA00174D75 /* KSMemoryController.m in Sources */,
+				E6D0EE8824581E9200C35F24 /* KSLoadController.m in Sources */,
 				E655E0112452F13000FA359B /* KSKeychain.m in Sources */,
 				E655E00C2452F09F00FA359B /* KSKeychainController.m in Sources */,
 				E64BB8AB2452B70B008D7DB5 /* KSBaseViewController.swift in Sources */,
@@ -902,6 +1033,7 @@
 				E6DCC4CF24540B67004092FC /* Date+KSExtensions.swift in Sources */,
 				E67D375D2456F85E00174D75 /* KSBarrierController.m in Sources */,
 				E6DCC4C524540921004092FC /* UILabel+KSExtensions.swift in Sources */,
+				E6D0EE902458244400C35F24 /* KSResponderChainController.m in Sources */,
 				E64BB8CD2452C39C008D7DB5 /* KSLog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

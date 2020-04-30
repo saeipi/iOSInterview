@@ -17,14 +17,9 @@ class KSMainViewData: NSObject {
     
     func pageDatas() ->[KSFunctionPage] {
         return [KSFunctionPage.init(KSKVOController.self),
-                KSFunctionPage.init(KSKVOController.self),
-                KSFunctionPage.init(KSKVOController.self),
-                KSFunctionPage.init(KSKVOController.self),
-                KSFunctionPage.init(KSKVOController.self),
-                KSFunctionPage.init(KSKVOController.self),
-                KSFunctionPage.init(KSKVOController.self),
-                KSFunctionPage.init(KSKVOController.self),
-                KSFunctionPage.init(KSKVOController.self),
+                KSFunctionPage.init(KSLoadController.self),
+                KSFunctionPage.init(KSResponderChainController.self),
+                KSFunctionPage.init(KSCopyController.self),
         ]
     }
 }

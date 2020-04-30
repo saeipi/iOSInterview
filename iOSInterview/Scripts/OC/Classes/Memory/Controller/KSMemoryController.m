@@ -7,7 +7,7 @@
 //
 
 #import "KSMemoryController.h"
-#import "KSUser.h"
+
 char char_string[] = "char_text"; //char_string在常量区/全局区
 
 @interface KSMemoryController ()

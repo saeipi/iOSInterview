@@ -7,7 +7,7 @@
 //
 
 #import "KSKVOController.h"
-#import "KSUser.h"
+
 @interface KSKVOController ()
 
 @property (nonatomic, strong) KSUser *user;

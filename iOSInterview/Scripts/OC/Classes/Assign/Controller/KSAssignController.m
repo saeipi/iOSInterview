@@ -7,7 +7,6 @@
 //
 
 #import "KSAssignController.h"
-#import "KSUser.h"
 
 @interface KSAssignController ()
 
