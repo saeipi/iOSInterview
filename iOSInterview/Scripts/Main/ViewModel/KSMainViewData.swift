@@ -23,6 +23,7 @@ class KSMainViewData: NSObject {
                 KSFunctionPage.init(KSAssignController.self),
                 KSFunctionPage.init(KSDispatchGroupController.self),
                 KSFunctionPage.init(KSSemaphoreController.self),
+                KSFunctionPage.init(KSBarrierController.self),
         ]
     }
 }

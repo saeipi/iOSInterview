@@ -7,3 +7,4 @@
 #import "KSResponderChainController.h"
 #import "KSCopyController.h"
 #import "KSAssignController.h"
+#import "KSBarrierController.h"

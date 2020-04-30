@@ -6,12 +6,8 @@
 //  Copyright © 2020 saeipi. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "KSBaseController.h"
 
-NS_ASSUME_NONNULL_BEGIN
-
-@interface KSBarrierController : UIViewController
+@interface KSBarrierController : KSBaseController
 
 @end
-
-NS_ASSUME_NONNULL_END
