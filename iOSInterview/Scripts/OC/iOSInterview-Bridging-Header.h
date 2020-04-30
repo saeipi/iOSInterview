@@ -6,3 +6,4 @@
 #import "KSLoadController.h"
 #import "KSResponderChainController.h"
 #import "KSCopyController.h"
+#import "KSAssignController.h"

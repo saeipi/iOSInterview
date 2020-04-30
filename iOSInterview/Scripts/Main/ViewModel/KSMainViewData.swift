@@ -20,6 +20,9 @@ class KSMainViewData: NSObject {
                 KSFunctionPage.init(KSLoadController.self),
                 KSFunctionPage.init(KSResponderChainController.self),
                 KSFunctionPage.init(KSCopyController.self),
+                KSFunctionPage.init(KSAssignController.self),
+                KSFunctionPage.init(KSDispatchGroupController.self),
+                KSFunctionPage.init(KSSemaphoreController.self),
         ]
     }
 }

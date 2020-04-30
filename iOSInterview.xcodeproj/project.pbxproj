@@ -31,6 +31,7 @@
 		E67D37562456C93900174D75 /* KSAssignController.m in Sources */ = {isa = PBXBuildFile; fileRef = E67D37552456C93900174D75 /* KSAssignController.m */; };
 		E67D375D2456F85E00174D75 /* KSBarrierController.m in Sources */ = {isa = PBXBuildFile; fileRef = E67D375C2456F85E00174D75 /* KSBarrierController.m */; };
 		E6ACF43A245A7C6100322BB9 /* KSCopyController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6ACF439245A7C6100322BB9 /* KSCopyController.m */; };
+		E6ACF441245AB95C00322BB9 /* KSSemaphoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ACF440245AB95C00322BB9 /* KSSemaphoreController.swift */; };
 		E6D0EE7A2458187600C35F24 /* KSConstValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D0EE792458187600C35F24 /* KSConstValue.swift */; };
 		E6D0EE81245818FC00C35F24 /* KSBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D0EE80245818FC00C35F24 /* KSBaseController.m */; };
 		E6D0EE8824581E9200C35F24 /* KSLoadController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D0EE8724581E9200C35F24 /* KSLoadController.m */; };
@@ -102,6 +103,7 @@
 		E6ACF438245A7C6100322BB9 /* KSCopyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSCopyController.h; sourceTree = "<group>"; };
 		E6ACF439245A7C6100322BB9 /* KSCopyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSCopyController.m; sourceTree = "<group>"; };
 		E6ACF43B245A991D00322BB9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E6ACF440245AB95C00322BB9 /* KSSemaphoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSSemaphoreController.swift; sourceTree = "<group>"; };
 		E6D0EE772458119400C35F24 /* KSGlobalImport.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSGlobalImport.pch; sourceTree = "<group>"; };
 		E6D0EE792458187600C35F24 /* KSConstValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSConstValue.swift; sourceTree = "<group>"; };
 		E6D0EE7F245818FC00C35F24 /* KSBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSBaseController.h; sourceTree = "<group>"; };
@@ -247,6 +249,7 @@
 		E64BB8972452B586008D7DB5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E6ACF43C245AB94200322BB9 /* Semaphore */,
 				E64BB8C52452C26E008D7DB5 /* GCD */,
 				E64BB8A62452B6F7008D7DB5 /* BaseClass */,
 			);
@@ -781,6 +784,38 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		E6ACF43C245AB94200322BB9 /* Semaphore */ = {
+			isa = PBXGroup;
+			children = (
+				E6ACF43D245AB94200322BB9 /* Controller */,
+				E6ACF43E245AB94200322BB9 /* Model */,
+				E6ACF43F245AB94200322BB9 /* View */,
+			);
+			path = Semaphore;
+			sourceTree = "<group>";
+		};
+		E6ACF43D245AB94200322BB9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E6ACF440245AB95C00322BB9 /* KSSemaphoreController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E6ACF43E245AB94200322BB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E6ACF43F245AB94200322BB9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E6D0EE782458187600C35F24 /* Const */ = {
 			isa = PBXGroup;
 			children = (
@@ -1026,6 +1061,7 @@
 				E6D0EE8824581E9200C35F24 /* KSLoadController.m in Sources */,
 				E655E0112452F13000FA359B /* KSKeychain.m in Sources */,
 				E655E00C2452F09F00FA359B /* KSKeychainController.m in Sources */,
+				E6ACF441245AB95C00322BB9 /* KSSemaphoreController.swift in Sources */,
 				E64BB8AB2452B70B008D7DB5 /* KSBaseViewController.swift in Sources */,
 				E6DCC4D524541BD1004092FC /* KSLockController.m in Sources */,
 				E60485702452B4F30070A045 /* AppDelegate.swift in Sources */,

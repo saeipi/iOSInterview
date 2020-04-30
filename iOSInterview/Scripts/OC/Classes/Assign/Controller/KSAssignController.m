@@ -32,9 +32,19 @@
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [_user2 updateInfo];//[nil updateInfo]
-    [_user1 updateInfo];//悬垂指针造成闪退，Thread 1: EXC_BAD_ACCESS (code=EXC_I386_GPFLT)
+    @try {
+        [_user1 updateInfo];//悬垂指针造成闪退，Thread 1: EXC_BAD_ACCESS (code=EXC_I386_GPFLT)
+    } @catch (NSException *exception) {
+        NSLog(@"exception %@",exception.userInfo);
+    } @finally {
+        NSLog(@"finally");
+    }
+    
 }
 
++(NSString *)description {
+    return @"Assign 悬垂指针";
+}
 /*
  runtime 对注册的类，会进⾏布局，对于weak对象会放⼊一个hash表中。用weak指向的对象内存地址作为key，当此对象的引⽤计数为0的时候会dealloc，假如weak指向的对象内存地址是a，那么就会以a为键，在这个 weak 表中搜索，找到所有以a为键的weak对象，从⽽设置为nil。
  */

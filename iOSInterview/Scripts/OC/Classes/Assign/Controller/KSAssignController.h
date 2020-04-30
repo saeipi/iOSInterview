@@ -6,12 +6,8 @@
 //  Copyright © 2020 saeipi. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "KSBaseController.h"
 
-NS_ASSUME_NONNULL_BEGIN
-
-@interface KSAssignController : UIViewController
+@interface KSAssignController : KSBaseController
 
 @end
-
-NS_ASSUME_NONNULL_END
